@@ -19,6 +19,7 @@ public class UserInputs {
         //   print the user input
           System.out.println("Hello, " + name + "!");
 
+
         // **************************
  
         System.out.println("Enter your age: ");
@@ -35,6 +36,20 @@ public class UserInputs {
 
         System.out.println("Your GPA is " + gpa);
         
+
+         // **************************
+         
+         System.out.println("Are you a student? (true/false)");
+
+         boolean isStudent = scanner.nextBoolean();
+
+         System.out.println("Are you a student? " + isStudent);
+         
+
+
+
+
+         
         //   close the scanner
         scanner.close();
 
