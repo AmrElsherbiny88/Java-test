@@ -43,13 +43,18 @@ public class UserInputs {
 
          boolean isStudent = scanner.nextBoolean();
 
-         System.out.println("Are you a student? " + isStudent);
-         
-
-
-
 
          
+         if (isStudent) {
+          System.out.println("You are a student.");
+         }else {
+          System.out.println("You are not a student.");
+         }
+
+
+
+
+
         //   close the scanner
         scanner.close();
 
