@@ -17,5 +17,7 @@ public class variables {
 
         char grade = 'A';
         System.out.println("My grade is " + grade);
+
+        
     }
 }
