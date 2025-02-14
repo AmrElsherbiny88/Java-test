@@ -19,14 +19,21 @@ public class UserInputs {
         //   print the user input
           System.out.println("Hello, " + name + "!");
 
-          
+        // **************************
  
         System.out.println("Enter your age: ");
 
         int age = scanner.nextInt();
-        
+
         System.out.println("You are " + age + " years old.");
 
+        // **************************
+
+        System.out.println("Enter your GPA: ");
+
+        double gpa = scanner.nextDouble();
+
+        System.out.println("Your GPA is " + gpa);
         
         //   close the scanner
         scanner.close();
